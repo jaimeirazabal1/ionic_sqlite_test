@@ -1,0 +1,18 @@
+<ion-view view-title="New Friend">
+  <ion-content>
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" ng-model="people.firstname" placeholder="First Name">
+      </label>
+      <label class="item item-input">
+        <input type="text" ng-model="people.lastname" placeholder="Last Name">
+      </label>
+      <label class="item item-input">
+        <textarea ng-model="people.comments" placeholder="Comments"></textarea>
+      </label>
+    </div>
+    <button class="button button-full button-positive" ng-click="add()">
+      Add!
+    </button>
+  </ion-content>
+</ion-view>

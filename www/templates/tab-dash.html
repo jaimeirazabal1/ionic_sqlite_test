@@ -1,0 +1,11 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <ion-list>
+      <span>Items {{items.length}}</span>
+      <ion-item ng-repeat="item in items">
+        Friend: {{item.firstname}} {{item.lastname}}!
+        <p><small>{{item.comments}}</small></p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
